@@ -52,7 +52,7 @@ const Formulario = (props) => {
                     label="Imagem" 
                     aoAlterado={value=> setImagem(value)} 
                     value={imagem} 
-                    placeholder="Digite o endereço da imagem" 
+                    placeholder="Digite o user github" 
                 />
                 <ListaSuspensa 
                     obrigatorio={true} 
